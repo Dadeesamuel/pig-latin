@@ -1,4 +1,4 @@
-
+//business logic
 function PigLatin(userInput) {
     
     let vowels = ['a', 'e', 'i', 'o', 'u'];
@@ -50,5 +50,7 @@ $(document).ready(function(){
      $("#output").text(remove + "ayac");
     }
    $("#output").show();
+
+
 });
 });

@@ -19,4 +19,8 @@ body{
 border: 3px solid white;
 width: 30%;
 margin: auto;
+color: white;
+}
+#word:hover{
+background: yellow;
 }
