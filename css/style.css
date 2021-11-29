@@ -24,3 +24,12 @@ color: white;
 #word:hover{
 background: yellow;
 }
+
+footer{
+    background-color: rgb(1, 1, 29);
+    text-align: center;
+    width: 100;
+    height: 50px;
+    padding-top:3px ;
+    color: white; 
+}
