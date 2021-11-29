@@ -16,8 +16,7 @@ body{
     font-size: xx-large;
 }
 .pig{
-border: 3px solid grey;
+border: 3px solid white;
 width: 30%;
-margin: auto
-;
+margin: auto;
 }

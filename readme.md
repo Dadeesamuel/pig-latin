@@ -1,10 +1,22 @@
-# triangular tracker
+# pig latin
 
-The site teaches you more about triangles and the difference in their sides with the name called.
+Pig Latin is a language game in which English words are altered, usually by adding a fabricated suffix or by moving the onset or initial consonant or consonant cluster of a word to the end of the word and adding a vocalic syllable to create such a suffix. For example, "away" would become "wayaacedu".
 
 ## How to visit
 
-[click](<https://dadeesamuel.github.io/triangular-tracker>) to visit the site.
+[click](<https://dadeesamuel.github.io/pig-latin>) to visit the site.
+
+## How to pig latin works
+
+Pig Latin is a language game that involves adding imaginary endings to real English words.
+
+### Here are the rules of Pig Latin
+
+* For words beginning with a vowel, add "acedu" to the end. For Pig Latin, vowels are "a," "e," "i," "o," and "u."  Examples: "away" becomes "awayacedu" and "okay" becomes "okayacedu."
+
+* For words beginning with one or more consonants, move all of the first consecutive consonants to the end and add "ayac". Examples: "code" becomes "odecayac" and "move" becomes "ovemayac."
+
+* If the first consonants include "qu", move the "q" and the "u." Don't forget about words like "squeal" where "qu" doesn't come first! Examples: "quick" becomes "ickquayac" while "squeal" becomes "quealsayac.
 
 ## TABLE OF CONTENT
 
@@ -51,6 +63,6 @@ SOFTWARE.
 
 Samuel- 08132652308
 
-Project link- <https://dadeesamuel.github.io/triangular-tracker>
+Project link- <https://dadeesamuel.github.io/pig-latin>
 
 github username- Dadeesamuel
