@@ -1,18 +1,20 @@
-/*
-function translatePigLatin(str) {
+
+function PigLatin(userInput) {
+    
     let vowels = ['a', 'e', 'i', 'o', 'u'];
     let newStr = "";
-
-    if (vowels.indexOf(str[0]) > -1) {
-        newStr = str + "way";
-        return newStr;
-    } else {
-        let firstMatch = str.match(/[aeiou]/g) || 0;
-        let vowel = str.indexOf(firstMatch[0]);
-        newStr = str.substring(vowel) + str.substring(0, vowel) + "ay";
-        return newStr;
+    if (vowels.indexOf(userInput[0]) > -1) {
+        newStr = userInput + "acedu";
+        $("#output").text(newStr)
     }
-} */
+    else if (twoLetter==="qu") {
+
+        $("#output").text(remove2 + "ayac") 
+    }else {
+     $("#output").text(remove + "ayac");
+    }
+
+} 
 
 
 
@@ -35,21 +37,18 @@ $(document).ready(function(){
     let remove2  = userInput.slice(2)+twoLetter;
     
 
-
     let vowels = ['a', 'e', 'i', 'o', 'u'];
     let newStr = "";
     if (vowels.indexOf(userInput[0]) > -1) {
         newStr = userInput + "acedu";
-        console.log(newStr);
-        
+        $("#output").text(newStr)
     }
     else if (twoLetter==="qu") {
-        console.log(remove2 + "ayac");
-            
-    }else {
-      console.log(remove + "ayac");
-    }
 
-   
+        $("#output").text(remove2 + "ayac") 
+    }else {
+     $("#output").text(remove + "ayac");
+    }
+   $("#output").show();
 });
 });

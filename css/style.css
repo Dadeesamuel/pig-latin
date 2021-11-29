@@ -1,0 +1,23 @@
+body{
+    background-color: darkkhaki;
+}
+#form{
+    padding-top:10px ;
+}
+#output{
+    display: none;
+    text-align: center;
+    color: darkorange;
+    border: 3px solid red;
+    height: 1000;
+    width: 30%;
+    margin: auto;
+    background-color: white;
+    font-size: xx-large;
+}
+.pig{
+border: 3px solid grey;
+width: 30%;
+margin: auto
+;
+}
