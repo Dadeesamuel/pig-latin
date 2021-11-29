@@ -13,22 +13,43 @@ function translatePigLatin(str) {
         return newStr;
     }
 } */
+
+
+
+
 //user logic
 $(document).ready(function(){
     $("#form").submit(function(event){
         event.preventDefault();
+
+        //user input value
     let userInput =$("#word").val();
+    userInput= userInput.toLowerCase()
+
+// first character, removing of the firstletter and concating them
     let firstLetter= userInput.substring(0,1)
     let remove  = userInput.slice(1)+firstLetter;
+
+// first two  character, removing of the first two letter and concating them
+    let twoLetter = userInput.substring(0,2)
+    let remove2  = userInput.slice(2)+twoLetter;
+    
+
+
     let vowels = ['a', 'e', 'i', 'o', 'u'];
     let newStr = "";
     if (vowels.indexOf(userInput[0]) > -1) {
         newStr = userInput + "acedu";
-        console.log(newStr);  
-         
+        console.log(newStr);
+        
+    }
+    else if (twoLetter==="qu") {
+        console.log(remove2 + "ayac");
+            
+    }else {
+      console.log(remove + "ayac");
     }
 
    
-  //  $(".word").text(str)
 });
 });
